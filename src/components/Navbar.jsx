@@ -17,7 +17,7 @@ const Navbar = () => {
             <nav>
                     <h1 className="logo">Organic Couture</h1>
                 <div className={Mobile? "nav-links-mobile" : "nav-links"} onClick={() => setMobile(false)}>
-                     <Link to="/home" className="navbar-item"><li>Home</li></Link>   
+                     <Link to="/" className="navbar-item"><li>Home</li></Link>   
                      <Link to="/products" className="navbar-item"><li>Products</li></Link>   
                      <Link to="/about" className="navbar-item"><li>About</li></Link>   
                    <Link to="/contact" className="navbar-item"><li>Contact</li></Link>    
